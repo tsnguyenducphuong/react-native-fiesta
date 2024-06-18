@@ -45,7 +45,7 @@ export const Fireworks: React.FC<FireworksProps> = memo(
     );
 
     return (
-      <Canvas style={StyleSheet.absoluteFill} pointerEvents="none">
+      <Canvas style={styles.canvas} pointerEvents="none">
         {fireworksToRenderArray.map((_, index) => (
           <Firework
             key={index}
@@ -62,9 +62,9 @@ export const Fireworks: React.FC<FireworksProps> = memo(
   }
 );
 
-// const styles = StyleSheet.create({
-//   canvas: {
-//     ...StyleSheet.absoluteFillObject,
-//     zIndex: 1,
-//   },
-// });
+const styles = StyleSheet.create({
+  canvas: {
+    ...StyleSheet.absoluteFillObject,
+    zIndex: 1,
+  },
+});
