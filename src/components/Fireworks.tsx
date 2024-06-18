@@ -62,9 +62,9 @@ export const Fireworks: React.FC<FireworksProps> = memo(
   }
 );
 
-const styles = StyleSheet.create({
-  canvas: {
-    ...StyleSheet.absoluteFillObject,
-    zIndex: 1,
-  },
-});
+// const styles = StyleSheet.create({
+//   canvas: {
+//     ...StyleSheet.absoluteFillObject,
+//     zIndex: 1,
+//   },
+// });
