@@ -24,7 +24,7 @@ export const Balloon = memo(
   ({
     x = 0,
     y = 0,
-    color = '#A555EC',
+    color = '#a37e2c',
     r = 40,
     depth = 1,
     autoPlay = true,
